@@ -21,3 +21,9 @@ and experimentation.
   or duckdb). The larger projects haven't generalized their modules (for good
   reason), but generalizing their modules is too difficult for me to bootstrap my
   learning and research from.
+
+
+# Mohair Branch
+
+The `mohair` branch is a development branch that is working towards support for
+decomposable queries in substrait.
