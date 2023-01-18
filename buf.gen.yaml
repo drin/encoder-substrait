@@ -1,0 +1,17 @@
+# A modified version of github.com/substrait-io/substrait/buf.gen.yaml for
+# this repo's directory structure
+
+version: v1
+plugins:
+  - remote: buf.build/protocolbuffers/plugins/cpp:v3.20.0-1
+    out: gen/proto/cpp
+  - remote: buf.build/protocolbuffers/plugins/csharp:v3.20.0-1
+    out: gen/proto/csharp
+  - remote: buf.build/protocolbuffers/plugins/java:v3.20.0-1
+    out: gen/proto/java
+  - remote: buf.build/protocolbuffers/plugins/python:v3.20.0-1
+    out: python/encoder-substrait
+  - remote: buf.build/protocolbuffers/plugins/go:v1.28.0-1
+    out: gen/proto/go
+    opt:
+      - paths=source_relative
