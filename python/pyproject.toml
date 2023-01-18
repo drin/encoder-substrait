@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "encoder-substrait"
+version = "0.1.0"
+description = "Simple encoder for substrait structures using python"
+authors = ["Aldrin Montana <octalene.dev@pm.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+protobuf = "^4.21.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
